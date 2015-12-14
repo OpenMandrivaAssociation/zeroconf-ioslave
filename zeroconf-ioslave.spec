@@ -2,14 +2,14 @@ Name:		zeroconf-ioslave
 Summary:	DNS-SD Service Discovery Monitor
 Group:		Networking/Other
 Version:	15.08.3
-Release:	2
+Release:	3
 URL:		http://www.kde.org
 License:	GPLv2 LGPLv2 GFDL
 Source0:	http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kdelibs-devel
 Requires:	nss_mdns
 Conflicts:	kdenetwork4-devel < 3:4.6.95
-Conflicts:	kdnssd < 4.14.3-4
+Conflicts:	kdnssd < 3:4.14.3-4
 Obsoletes:	kdnssd < 3:4.14.3-4
 
 %description
