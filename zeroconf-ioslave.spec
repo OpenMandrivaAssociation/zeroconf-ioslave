@@ -1,11 +1,13 @@
+%define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
+
 Name:		zeroconf-ioslave
 Summary:	DNS-SD Service Discovery Monitor
 Group:		Networking/Other
-Version:	 18.04.2
+Version:	18.07.80
 Release:	1
 URL:		http://www.kde.org
 License:	GPLv2 LGPLv2 GFDL
-Source0:	http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
 Requires:	nss_mdns
 BuildRequires:	cmake cmake(ECM) ninja
 BuildRequires:	cmake(KF5CoreAddons) cmake(KF5DBusAddons) cmake(KF5DNSSD) cmake(KF5I18n)
