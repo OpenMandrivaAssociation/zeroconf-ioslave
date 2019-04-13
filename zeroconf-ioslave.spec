@@ -3,8 +3,8 @@
 Name:		zeroconf-ioslave
 Summary:	DNS-SD Service Discovery Monitor
 Group:		Networking/Other
-Version:	18.12.3
-Release:	2
+Version:	19.04.0
+Release:	1
 URL:		http://www.kde.org
 License:	GPLv2 LGPLv2 GFDL
 Source0:	http://download.kde.org/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
