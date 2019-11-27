@@ -3,7 +3,7 @@
 Name:		zeroconf-ioslave
 Summary:	DNS-SD Service Discovery Monitor
 Group:		Networking/Other
-Version:	19.08.3
+Version:	19.11.80
 Release:	1
 URL:		http://www.kde.org
 License:	GPLv2 LGPLv2 GFDL
@@ -22,6 +22,7 @@ DNS-SD Service Discovery Monitor.
 %{_libdir}/qt5/plugins/kf5/kio/zeroconf.so
 %{_datadir}/kservices5/kded/dnssdwatcher.desktop
 %{_datadir}/dbus-1/interfaces/org.kde.kdnssd.xml
+%{_datadir}/metainfo/org.kde.zeroconf-ioslave.metainfo.xml
 
 #------------------------------------------------------------------------------
 
