@@ -3,11 +3,11 @@
 Name:		zeroconf-ioslave
 Summary:	DNS-SD Service Discovery Monitor
 Group:		Networking/Other
-Version:	19.11.90
+Version:	19.12.0
 Release:	1
 URL:		http://www.kde.org
 License:	GPLv2 LGPLv2 GFDL
-Source0:	http://download.kde.org/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 Requires:	nss_mdns
 BuildRequires:	cmake cmake(ECM) ninja
 BuildRequires:	cmake(KF5CoreAddons) cmake(KF5DBusAddons) cmake(KF5DNSSD) cmake(KF5I18n)
