@@ -7,7 +7,7 @@ Name:		zeroconf-ioslave
 Summary:	DNS-SD Service Discovery Monitor
 Group:		Networking/Other
 Version:	22.12.3
-Release:	1
+Release:	2
 URL:		http://www.kde.org
 License:	GPLv2 LGPLv2 GFDL
 Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/kio-zeroconf-%{version}.tar.xz
