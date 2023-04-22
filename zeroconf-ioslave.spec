@@ -6,7 +6,7 @@
 Name:		zeroconf-ioslave
 Summary:	DNS-SD Service Discovery Monitor
 Group:		Networking/Other
-Version:	23.03.90
+Version:	23.04.0
 Release:	1
 URL:		http://www.kde.org
 License:	GPLv2 LGPLv2 GFDL
